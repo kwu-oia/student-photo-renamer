@@ -14,7 +14,7 @@ This guide explains how to use the Student Photo Renamer web tool to convert stu
 
 This tool takes student photos named by **수험번호** (exam/application number) and produces a set of photos named by **학번** (student ID) **only for passed students**.
 
-![Data Flow Diagram](/Users/universe/.cursor/projects/Users-universe-Projects-student-photo-renamer/assets/data-flow-diagram.png)
+![Data Flow Diagram](./docs/images/data-flow-diagram.png)
 
 Key features:
 
@@ -72,7 +72,7 @@ Photo filenames (based on 수험번호):
 
 ### 📋 Step-by-step workflow
 
-![Workflow Diagram](/Users/universe/.cursor/projects/Users-universe-Projects-student-photo-renamer/assets/workflow-diagram.png)
+![Workflow Diagram](./docs/images/workflow-diagram.png)
 
 ### Detailed steps:
 
@@ -121,4 +121,4 @@ Photo filenames (based on 수험번호):
 
 ## Example walkthrough
 
-![Transformation Diagram](/Users/universe/.cursor/projects/Users-universe-Projects-student-photo-renamer/assets/transformation-diagram.png)
+![Transformation Diagram](./docs/images/transformation-diagram.png)
