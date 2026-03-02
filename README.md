@@ -17,6 +17,7 @@ This tool takes student photos named by **수험번호** (exam/application numbe
 ![Data Flow Diagram](/Users/universe/.cursor/projects/Users-universe-Projects-student-photo-renamer/assets/data-flow-diagram.png)
 
 Key features:
+
 - ✅ Only students listed in your **validation Excel file** are included
 - ✅ Each photo is renamed from 수험번호 to matching 학번 (e.g., `11002.jpg` → `2025509514.jpg`)
 - ✅ Your original files are never changed
@@ -34,7 +35,7 @@ You need **two types of input**:
 File format: .xlsx or .xls
 
 ┌────────────┬────────────┐
-│   학번     │ 수험번호   │
+│   학번      │   수험번호    │
 ├────────────┼────────────┤
 │ 2025509512 │   11001    │
 │ 2025509514 │   11002    │
@@ -76,24 +77,28 @@ Photo filenames (based on 수험번호):
 ### Detailed steps:
 
 **1. Upload the validation Excel file**
-   - Click the **"Validation Excel file"** uploader
-   - Select your `.xlsx` or `.xls` file with columns **학번** and **수험번호**
-   - File is loaded and stored in memory
+
+- Click the **"Validation Excel file"** uploader
+- Select your `.xlsx` or `.xls` file with columns **학번** and **수험번호**
+- File is loaded and stored in memory
 
 **2. Upload the image files**
-   - Click the **"Image files"** uploader
-   - Select multiple photos OR drag a whole folder into the uploader
-   - All files with 수험번호 filenames are accepted
+
+- Click the **"Image files"** uploader
+- Select multiple photos OR drag a whole folder into the uploader
+- All files with 수험번호 filenames are accepted
 
 **3. Run the renaming process**
-   - Click the **"Rename files"** button
-   - Processing begins (a spinner shows while it works)
-   - The tool matches each photo's filename against your validation list
+
+- Click the **"Rename files"** button
+- Processing begins (a spinner shows while it works)
+- The tool matches each photo's filename against your validation list
 
 **4. Review the processing log**
-   - After processing, a **Log** section appears showing:
-   
-   ```
+
+- After processing, a **Log** section appears showing:
+
+```
    ✓ Loaded 1,500 passed students
    
    📝 Processing details:
@@ -104,12 +109,13 @@ Photo filenames (based on 수험번호):
    └── ...
    
    📊 Summary: 1,497 copied, 3 skipped
-   ```
+```
 
 **5. Download your renamed photos**
-   - When complete, click the **"Download"** button
-   - Saves as `renamed_images.zip` to your computer
-   - ZIP contains all renamed images organized by 학번
+
+- When complete, click the **"Download"** button
+- Saves as `renamed_images.zip` to your computer
+- ZIP contains all renamed images organized by 학번
 
 ---
 
