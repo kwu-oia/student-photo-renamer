@@ -72,7 +72,7 @@ Photo filenames (based on 수험번호):
 
 ### 📋 Step-by-step workflow
 
-![Workflow Diagram](./docs/images/workflow-diagram.png)
+<img src="./docs/images/workflow-diagram.png" width="350" alt="Workflow Diagram">
 
 ### Detailed steps:
 
